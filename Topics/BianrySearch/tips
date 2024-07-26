@@ -1,0 +1,34 @@
+calling a function create more time commpl3xity doing it there itslef if less time compelx 
+
+
+specifyhin the thing in the else if case is more fast then jsut addign them to hte 
+the major else brackeet 
+
+
+example 
+
+
+
+else{
+
+    if(1)
+
+    if(2)
+
+
+
+}
+
+this was slower than 
+
+else if(1){
+
+}
+
+else{
+
+
+}
+
+
+3. instead of declaring the int mid everyting delcare it once in for all at the top this increase a lot of speed 
