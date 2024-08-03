@@ -4,32 +4,32 @@ here there are going to be 3 solutions to per question
 */
 
 
-// ! this Method is called Memoization 
-#include<bits/stdc++.h>
-using namespace std;
-int f(int n,vector<int> &dp){
-    if(n<=1)return n;
-    if(dp[n]!=-1)return dp[n];
+// // ! this Method is called Memoization   (top down) 
+// #include<bits/stdc++.h>
+// using namespace std;
+// int f(int n,vector<int> &dp){
+//     if(n<=1)return n;
+//     if(dp[n]!=-1)return dp[n];
 
-    return dp[n] = f(n-1,dp) + f(n-2,dp);
-}
-int main(){
-    ios_base::sync_with_stdio(false);
-    cin.tie(nullptr);
+//     return dp[n] = f(n-1,dp) + f(n-2,dp);
+// }
+// int main(){
+//     ios_base::sync_with_stdio(false);
+//     cin.tie(nullptr);
 
-    int n;cin>>n;
-    vector<int> dp(n+1,-1);
-    cout<<f(n,dp);
+//     int n;cin>>n;
+//     vector<int> dp(n+1,-1);
+//     cout<<f(n,dp);
     
-    /*
-    tc o(n)
-    sc o(n) + o(n)
-       one for the recurrsion stack space and one for the vector 
+//     /*
+//     tc o(n)
+//     sc o(n) + o(n)
+//        one for the recurrsion stack space and one for the vector 
        
-    */
+//     */
 
-    return 0;
-}
+//     return 0;
+// }
 
 
 /* how to convert a memoizatiron to a tabulation 
@@ -50,7 +50,7 @@ example dp[i] = dp[i-1] + dp[i-2];
 
 /*
 the below is the most optimal code one step further than tabluation i assume 
-& tabluation or most optimal code 
+& tabluation or most optimal code   (bottom up)
 */
 
 
@@ -68,7 +68,7 @@ int main(){
         p1 = cur;
     }
 
-    cout<<p1<<endl;
+    cout<<(p1%(1000000007))<<endl;
     
 
     return 0;
