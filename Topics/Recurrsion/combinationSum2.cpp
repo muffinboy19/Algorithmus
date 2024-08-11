@@ -74,7 +74,11 @@ int main() {
 /*
 working solution but wait there exits a better solution
 */
+  while (i + 1 < nums.size() && nums[i] == nums[i + 1]) {
+            i++;
+        }
 
+the above code is used to removeduplicates leatrn it propelrry 
 
 /*
 okay now understand me the diffrence her is that h */
