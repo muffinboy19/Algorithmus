@@ -1,0 +1,5 @@
+Listen 
+so subset/subsequnce are 
+the  contigutres /non contigues part of the array 
+subsequnce HAS TO MAINTAIN ORDER 
+
