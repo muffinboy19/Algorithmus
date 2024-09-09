@@ -1,25 +1,65 @@
+
+
 /*
-In this code we will leanrn how to make and use graphs 
-
-
-we will be given 2 numbers
-
-number of nodes and number of edges 
-
-then we will be given m liners where they would contain the edges einfomration
-it will givee u the corrdinates of the nodes / value of hte nodes  that would be  join by the edges 
-
-
-or you will be given the matrix of whch  would coantin the smae info 
-being set on the intersiton of hte nodes that are sopposed to be connected
-
-\
-the nbumnber of  possible edgges for n nodes are 
-            n*(n-1)/2
-
-            and the number of possible graphs which can exitsare 
-
-            2 raised to number of possible edges
-
-            
+Below we have written the graph in the adjaceny list format in which each node would have vector which would store 
+all of its neighbour 
 */
+
+//{ Driver Code Starts
+#include <bits/stdc++.h>
+using namespace std;
+
+// } Driver Code Ends
+class Solution {
+  public:
+    // Function to return the adjacency list for each vertex.
+    vector<vector<int>> printGraph(int v, vector<pair<int,int>>edges) {
+        // Code here
+        
+                int e = edges.size();   
+        vector<vector<int>>al(v);
+
+        
+        for(int i =0;i<e;i++){
+            int fn = edges[i].first;
+            int sn = edges[i].second;
+            al[fn].push_back(sn);
+            al[sn].push_back(fn);
+        }
+        // for(auto it:al){
+        //     for(auto jt:it){
+        //         cout<<jt<<" ";
+        //     }
+        //     cout<<endl;
+        // }
+
+        return al;
+    }
+};
+
+//{ Driver Code Starts.
+int main() {
+    int tc;
+    cin >> tc;
+    while (tc--) {
+        int V, E;
+        cin >> V >> E;
+        vector<pair<int,int>>edges;
+        for (int i = 0; i < E; i++) {
+            int u, v;
+            cin >> u >> v;
+            edges.push_back({u,v});
+        }
+        Solution obj;
+        vector<vector<int>> adj = obj.printGraph(V, edges);
+        for(int i=0;i<V;i++)
+        {
+            sort(adj[i].begin(),adj[i].end());
+            for(auto it:adj[i])
+                cout<<it<<" ";
+            cout<<endl;
+        }
+    }
+    return 0;
+}
+// } Driver Code Ends
