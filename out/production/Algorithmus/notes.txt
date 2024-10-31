@@ -1,0 +1,97 @@
+basic information and defination said by kunal kushwa on oops
+
+ /*
+  * This video is going to be about packages
+
+
+  what is package and why dowe use package
+  are containesr for classees / boxes for clsses
+
+
+  basically package is just a folder
+  in a package there can not be 2 classes of the same name
+
+  now the concern that the name might colide with some different class
+  is now gone
+
+
+  listen we use the import to acess  differnte files in a difff package
+  also we are able to see only those files which are declared as public here
+
+  example
+  static import  com.package_name.a.function_name
+
+  java starts looking first in teh current directory
+
+
+
+
+
+  * static
+   in the same package you do not have to import the class
+   those properites that are object independte that would common among all objects
+
+   so bascially it is a such a proerty that you declare static would have a comon
+   value among all of its object
+   you inc the value in one / dec in other
+   it value will be same acrss  all the class instances
+
+
+
+   and while such proerpties inside a construter are not written as
+
+   this .stic_prperty
+
+   they are written with the clss name
+  works 2with both of them
+  rason bcz fisrt it iwill search for teh this.varible but if it does not find it
+  then it will sarch for the clawss.name varible hence this is workign
+
+
+
+
+  defination :
+  When the meber is declared static it can be accesed before any of the
+  object of the class , and without begin refferenced
+  even if we do not create any class
+  we can still access this member
+
+
+  even funcitons can also be declared as static
+  best cample would be
+  public static vvoid main
+
+  reason : we can use this thing without creating
+  the object of the Main Class
+
+  thus code we have to create a object of aclass to run it
+  but here we are doing it without creating a  ojbect
+
+  inside the static method we cannot use any non static calls
+  a staict method can only acess static data as
+  every non static data is bascically belogning to an object
+
+  if we declare a static function inside the class we will not be able to use
+  this keyword inside the class,  as the funtion is now object indepedent thus this holds now value anymore
+
+
+
+  */
+  /*
+
+   */
+  public class introduction {
+
+    public static void main(String[] args) {
+
+
+
+
+    }
+  }
+
+  do not forget to leanr also the internal implemenation
+  of the constructor calling
+
+do not forget to learn the whole static
+function
