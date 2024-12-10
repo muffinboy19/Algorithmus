@@ -13,6 +13,20 @@ public  class Box {
     }
     // for creating a square ... thi
     // htis is going ot be sedperaet constuctor
+
+
+    /*
+    Currently Creating a static Method
+     */
+    static void greeting(){
+        /*
+        Static methods are something which does nto depend on the oject of the
+        class
+        same action could be perosmmed with the clss name also
+
+         */
+        System.out.println("Hey , I am inside teh Box Class : Greetings");
+    }
     public Box(double side){
         this.w = side;
         this.h = side;

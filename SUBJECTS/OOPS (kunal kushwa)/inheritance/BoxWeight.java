@@ -24,7 +24,13 @@ public class BoxWeight extends  Box{
     decareaiotn fo hte parent class only the pulic declration would
     be allowed
      */
-
+    static  void greeting(){
+        /*
+        it does not make sene to ovveriede any static function in the child class
+        as it would run despite any presene of an ojbect if it is being inherited
+         */
+        System.out.println("Hey I am in the BoxWeight Class");
+    }
     BoxWeight(BoxWeight ish){
         super(ish);
         /// this is true because it will itlize all teh box tupes things

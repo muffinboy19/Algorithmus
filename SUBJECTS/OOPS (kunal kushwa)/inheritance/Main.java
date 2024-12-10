@@ -9,6 +9,24 @@ public class Main {
         System.out.println(osh.l +  " " + osh.w + " " + osh.h );
         System.out.println(kesh.l +  " " + kesh.w + " " + kesh.weight );
 
+        ish.greeting(); // does not require a need of ojbect
+        Box.greeting();// see no objecg required
+
+
+
+
+        ///////////////////////////////
+
+
+
+        Box b1 = new Box(3.0);
+        Box b2 = new BoxWeight(3.0,3.0,3.0,3.0);
+        b1.greeting();
+        b2.greeting();
+        Box.greeting();
+        BoxWeight.greeting();
+        // YOU cannot be ovverwrittne you can only inherti the static method
+
         /*
         Here we declatred a Box type object but assined it
         a boxWeigh instace which is the chluid class of hte
