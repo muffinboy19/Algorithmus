@@ -29,15 +29,13 @@ public class Main {
      */
 
     public  static  void main(String[] args){
-        Son gaurav = new Son();
+        Son gaurav = new Son(23);
         gaurav.carrer("engineer");
-        Daughter trisha = new Daughter();
+        Daughter trisha = new Daughter(23);
         trisha.carrer("houseWife");
         trisha.partner("kuldeep",21);
         gaurav.partner("priyam",19);
 
-
-        Parent mom = new Parent();
 
     }
 }
