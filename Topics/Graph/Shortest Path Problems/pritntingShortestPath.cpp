@@ -1,0 +1,5 @@
+/*
+here we are most probally using dijstra only for priting purpe 
+
+undirected weighted graph 
+*/
