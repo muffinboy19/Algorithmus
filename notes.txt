@@ -1,0 +1,8 @@
+This notebook is going to act as a univesral notes for wahtever neet i learn in the DSA
+
+for taking ceil u dont have to write big stamtnes u  can justimply do thte below thing 
+
+int x = a/2 + (a%2); only valid for 2 
+
+if( a== even) then 0 adds 
+else 1 adds making it  the ceil value of it  
