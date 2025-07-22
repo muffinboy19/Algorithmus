@@ -1,0 +1,34 @@
+System desgin is the process of defining the arhitecture, compoenetes, modules , interfaces and data for a sytem to satisfy specified requirements.
+
+invvoles translating user requirementes into a detailed blueprint.
+that guides the implementation phase.
+
+
+the goals is to create a well-organized and efficient structure that meets
+teh intendeded purpose while considering factors like scaliblity , maintainablity 
+and performance. 
+
+step 1 : 
+    planning 
+step 2 : 
+    Feasibility Study
+step 3 :
+    System Desgin 
+step 4 :
+    implementation
+step 5 :
+    Testing
+step 6 :
+    Deployment
+step 7 :
+    Maintenacne and support 
+
+Objectives of System Desgin
+    1. practicality : system that should target teh set of audiences 
+    2. accuracy : it should fullfill all the requiremntes around which it is 
+        dessgined functional or non functional requriments.
+    3. Completness : should meet all the user reqruimetn ( user side ) ( not the dsegin side) 
+    4. Efficient: should utilize the resources avoidign waste that 
+    inc cost and preventing underuse which can slow down pefoemcne 
+    and inc latency 
+    5. Reliality : 
