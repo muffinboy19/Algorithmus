@@ -1,0 +1,36 @@
+Here we are going to learn about the
+types of inheritance
+
+
+1. single inheritance ( one class extends another class)
+2. Multilevl inheritance ( one class cna inherit a class and the the class cna
+have a child too )
+        parent
+        child1
+        child2
+
+bottom class has teh idea  of al lthe above class
+
+3. Multiple inheritance
+one class extends to more than one classes
+
+so exmple c has 2 parents class  a and b
+
+
+C obj = new C();
+c.n // if n uis cmmon toi both the parent
+
+sol : this is not suppoted in java
+hint : thus this implemented using interface
+
+/// interfacxe is a sprate topic
+
+
+4 . hierachial inhertiace
+one class is inheritaeed by many classes
+
+
+
+
+
+

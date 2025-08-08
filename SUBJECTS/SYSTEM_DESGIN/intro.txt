@@ -1,0 +1,12 @@
+
+so system desgin can enusre system  can grow 
+and handle increased demand wihtout faillure.
+
+
+    1. scalability and realiablity
+    2. Efficient Resoures Managment
+    3. Adaptability
+    4. Architectural Understanding 
+        exzmple micorservece , monoloithic 
+
+
