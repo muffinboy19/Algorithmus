@@ -1,0 +1,27 @@
+to identify that this is a 1-D dp problem look for words like 
+count the number of ways or find the minum or maximum or best way 
+
+
+or the conecpt of try all the possiblites then u must use 
+dp
+
+some tips for recursion : 
+try to represent the problems in term of index 
+
+do all possibles stuff on the index according to the pro9blem statment 
+
+
+some classic examples : 
+sum of stuff ==> count all ways 
+min( of all stuf)==> find the min
+
+stringstream ss(s);
+
+used to extracts words from line input 
+easily does that just do 
+string temp="";
+while(ss >> temp){
+    take the wods whreed you want 
+
+    wit htemp ;
+}

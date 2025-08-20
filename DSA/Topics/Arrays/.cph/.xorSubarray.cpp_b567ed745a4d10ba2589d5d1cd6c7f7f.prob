@@ -1,0 +1,1 @@
+{"name":"Local: xorSubarray","url":"c:\\Users\\gaura\\OneDrive\\Desktop\\DSAA\\Algorithmus\\Topics\\Arrays\\xorSubarray.cpp","tests":[{"id":1736236219193,"input":"5 6\n4 2 2 4 6","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\gaura\\OneDrive\\Desktop\\DSAA\\Algorithmus\\Topics\\Arrays\\xorSubarray.cpp","group":"local","local":true}

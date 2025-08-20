@@ -1,0 +1,3 @@
+/*
+minimize the max distancw to the gas staiton 
+*/

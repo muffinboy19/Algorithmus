@@ -1,0 +1,6 @@
+one's complimetn is nothign jut all the bit's filppeed    
+2's complitne is nothign but 1's compliment and + 1 to it 
+the computer stores 2s compliment when storing a negative number            
+right shifting  by one is same as idving by 2 
+left shifgting by one is same as  doubling the number 
+for a number to be odd the lsb has to be 1 
